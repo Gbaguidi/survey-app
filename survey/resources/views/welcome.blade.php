@@ -81,13 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="https://laravel.com/docs">Welcome to the survey app</a>
-
+                    Welcome to the survey app
                 </div>
 
                 <div class="links">
-                    <a href="https://laracasts.com">Create survey</a>
-                    <a href="https://laravel-news.com">Attend survey</a>
+                    <a href="{{route('surveys.create')}}">Create survey</a>
+                    <a href="{{route('takeSurveys.index')}}">Attend survey</a>
                 </div>
             </div>
         </div>
