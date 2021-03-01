@@ -1,0 +1,241 @@
+/* your styles go here */
+
+.map-wrapper-300 {
+    height: 590px;
+}
+
+body.modal-open{
+    overflow: inherit;
+    padding-right: 0 !important;
+}
+
+#infodeposite {
+    width: 120px;
+    height: 80px;
+    margin: 25px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.sweet-modal .sweet-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sweet-modal.is-alert .sweet-content {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.modal {
+    z-index: 10050 !important;
+}
+
+#infodeposite:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+    transform: rotate(-90deg) translate(-52.5px, 72.5px);
+}
+
+.h-34-px {
+    height: 34px !important;
+}
+
+.custom-row {
+    margin-bottom: -45px;
+    margin-top: -123px;
+    text-align: center
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+    width: 283px
+}
+
+#scrolling {
+    height: 200px;
+    overflow: auto;
+}
+
+@media all and (max-width: 767px) {
+    #map-post-section {
+        padding-top: 4rem !important;
+    }
+
+    #map-section {
+        padding-left: 1rem !important;
+    }
+}
+
+@media all and (min-width: 768px) {
+    #map-section {
+        background: #f8f9fa !important;
+    }
+}
+
+.hero-msg {
+    text-align: center;
+    border-radius: 20px;
+}
+
+#deposits-tbody tr:first-child td {
+    border: 0 !important;
+}
+
+.pac-container {
+    z-index: 9999;
+}
+
+@media all and (min-width: 992px) {
+    #country-nav {
+        left: 20% !important;
+    }
+}
+
+#country-nav {
+    position: relative;
+}
+
+.mx-sm-5 {
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+}
+
+.btn-custom {
+    text-transform: none !important;
+    letter-spacing: normal !important;
+    height: 2em !important;
+    vertical-align: middle !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: auto !important;
+}
+
+.btn-primary {
+    background: #0071bc !important;
+}
+
+.text-primary {
+    color: #0071bc !important;
+}
+
+.btn-secondary {
+    background: #ff0000 !important;
+}
+
+#locate-position {
+    position: absolute;
+    top: 140px;
+    left: 25px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#map {
+    width: 100%;
+    height: 545px;
+}
+
+.locate {
+    float: left;
+}
+
+.locate2:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+#info {
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.scrollbar {
+    float: left;
+    height: 440px;
+    width: 100%;
+    background: #F5F5F5;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+#wrapper {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+
+/*
+ *  STYLE 1
+ */
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+.flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.flex-grow-3 {
+    flex-grow: 3 !important;
+}
+
+.flex-grow-5 {
+    flex-grow: 5 !important;
+}
+
+.text-deposit {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.bottomleft {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.toast {
+    font-size: 1rem !important;
+}
+
+div[class='product-img'] img{
+    height: 150px !important;
+    border: 2px solid red !important;
+}

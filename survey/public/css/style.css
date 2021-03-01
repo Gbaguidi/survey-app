@@ -1,0 +1,17 @@
+.accordion-header{
+    background: #c0c0c045;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    margin: 2px 0px;
+}
+
+.option-row{
+    margin: 2px 0px;
+    margin-top: 5px;
+    padding: 5px 0px;
+    box-sizing: border-box;
+    background: #c0c0c045;
+    border-bottom:0.5px solid #c0c0c045;
+}
